@@ -42,15 +42,7 @@ module.exports = {
       use: ['babel-loader','svg-react-loader']
     },
     {
-      test: /\.module\.scss$/,
-      loader: 'style-loader!css-loader' +
-        '?modules&importLoaders=1&localIdentName=[path]' +
-        '___[name]__[local]___[hash:base64:5]' +
-        '!resolve-url-loader!postcss-loader!sass-loader'
-    },
-    {
       test: /\.scss$/,
-      exclude: [/\.module\.scss$/],
       use: ExtractTextPlugin.extract({
         use: [
           'css-loader',

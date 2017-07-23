@@ -10,6 +10,7 @@ import { ApolloProvider } from 'react-apollo';
 import { getDataFromTree } from 'react-apollo/server';
 import { createNetworkInterface } from 'apollo-client';
 import store from '../app/src/store';
+import csshook from 'css-modules-require-hook/preset';
 import { routes } from '../app/src/routes';
 import Html from './utils/Html';
 import createApolloClient from './utils/createApolloClient';
