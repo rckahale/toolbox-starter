@@ -19,7 +19,7 @@ import manifest from './public/manifest.json';
 env(path.join(__dirname, '..', '.env'));
 
 const app = express();
-const serverUrl = process.env.BASE_URL || 'http://localhost:1337';
+const serverUrl = process.env.BASE_URL || 'http://localhost:2337';
 const apiUrl = process.env.API_URL || 'http://localhost:3000';
 const PORT = serverUrl.match(/\d+/g)[0];
 const IP = serverUrl.match(/\w+/g)[1];

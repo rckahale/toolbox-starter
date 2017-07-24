@@ -129,7 +129,7 @@ There are two options for installation:
 
    `npm run start`
 
-   Your app will be served at: http://localhost:1337
+   Your app will be served at: http://localhost:2337
 
 ## Deployment
 

@@ -12,7 +12,7 @@ module.exports = {
   devtool: 'eval',
   entry: [
     'react-hot-loader/patch',
-    'webpack-dev-server/client?http://localhost:1337',
+    'webpack-dev-server/client?http://localhost:2337',
     'webpack/hot/only-dev-server',
     path.resolve(ROOT_PATH, './app/src'),
   ],
